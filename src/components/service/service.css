@@ -1,0 +1,60 @@
+#service {
+    position: relative;
+}
+
+.service--content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background: var(--color-bg-variant);
+    padding: 2rem;
+    justify-content: center;
+    border-radius: 4rem;
+}
+
+
+.service--item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.service-icon {
+    min-width: 3rem;
+    min-height: 3rem;
+    padding: 3px;
+    color: var(--color-white);
+    background-color: var(--color-primary-variant);
+    border: 3px solid var(--color-primary-variant);
+    border-radius: .4rem;
+    transition: var(--transition);
+}
+
+.service--background {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.service-icon:hover {
+    background: var(--color-white);
+    color: var(--color-primary-variant);
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) =================== */
+
+@media screen and (max-width: 600px) {
+    .service--content-container {
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+}
