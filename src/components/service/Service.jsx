@@ -1,7 +1,6 @@
 import React from 'react'
 import './service.css'
 import {FaWrench} from 'react-icons/fa'
-import serwis from '../../assets/serwis.webp'
 
 const Service = () => {
   return (
@@ -31,7 +30,7 @@ const Service = () => {
         </div>
         <div className="service--item">
           <FaWrench className='service-icon' />
-          <p>Naprawy elektryczne i elektroniczne</p>
+          <p>Naprawy elektryczne i&nbsp;elektroniczne</p>
         </div>
         <div className="service--item">
           <FaWrench className='service-icon' />
@@ -59,7 +58,7 @@ const Service = () => {
         </div>
         <div className="service--item">
           <FaWrench className='service-icon' />
-          <p>Pełen zakres części i akcesoriów</p>
+          <p>Pełen zakres części i&nbsp;akcesoriów</p>
         </div>
         <div className="service--item">
           <FaWrench className='service-icon' />

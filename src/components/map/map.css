@@ -1,0 +1,18 @@
+.mapa {
+    width: 100vw;
+    height: 30rem;
+    margin: 0 -10vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .mapa {
+        width: 100vw;
+        margin: 0 -7vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #map {
+        display: none;
+    }
+}

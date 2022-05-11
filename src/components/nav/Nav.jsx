@@ -9,14 +9,14 @@ import {HiMail} from 'react-icons/hi'
 
 
 const Nav = () => {
-  const [active, setActive] = useState('#')
+  const [active, setActive] = useState('#home')
   return (
     <nav>
       <ul className="nav--list">
         <li><a 
-        href="#"
-        className={active === '#' ? 'active' : ''}
-        onClick={() => setActive('#')}
+        href="#home"
+        className={active === '#home' ? 'active' : ''}
+        onClick={() => setActive('#home')}
         ><ImHome3/></a></li>
         <li><a 
         href="#about"
@@ -35,7 +35,7 @@ const Nav = () => {
         ><AiFillCar /></a></li>
         <li><a 
         href="#map"
-        className={active === '#map' ? 'active' : ''}
+        className={active === '#map' ? 'active nav--map' : 'nav--map'}
         onClick={() => setActive('#map')}
         ><FiMapPin /></a></li>
         <li><a 

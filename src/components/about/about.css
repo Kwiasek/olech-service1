@@ -1,8 +1,3 @@
-#about {
-    margin-top: 1rem;
-    padding-top: 1.5rem;
-}
-
 .about--container {
     display: flex;
     flex-direction: column;
@@ -23,7 +18,6 @@
 }
 
 .about--image img {
-    filter: blur(1px);
     border-radius: 2.5rem;
     transition: var(--transition);
     -webkit-user-drag: none;
@@ -31,7 +25,6 @@
 
 .about--image img:hover {
     transform: scale(1.05);
-    filter: none;
 }
 
 .about--desc {
@@ -70,10 +63,6 @@
         letter-spacing: 2.5px;
         padding: 0;
         
-    }
-
-    .about--image img {
-        filter: none;
     }
 }
     

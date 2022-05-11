@@ -7,13 +7,13 @@ import {IoMdMail} from 'react-icons/io'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="zegar"></div>
       <h5>Witaj na stronie</h5>
       <h1 className='logo'>Olech-Service</h1>
       <img src={BGIMG} alt="Header background" className='header--bg'/>
       <span className="socials">
-        <a href="https://www.facebook.com/Olech-Service-106603740985482" target="_blank"><BsFacebook className='socials-icon'/></a>
+        <a href="https://www.facebook.com/Olech-Service-106603740985482" target="_blank" rel='noreferrer'><BsFacebook className='socials-icon'/></a>
         <a href="mailto:biuro@olechservice.pl" ><IoMdMail className='socials-icon'/></a>
       </span>
       <a href="#about" className="scroll">Zjedź niżej</a>

@@ -37,3 +37,9 @@ nav a.active {
     display: flex;
     gap: .5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .nav--map {
+        display: none;
+    }
+}
