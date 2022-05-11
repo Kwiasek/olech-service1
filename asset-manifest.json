@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/olech-service1/static/css/main.c59bd56b.css",
+    "main.js": "/olech-service1/static/js/main.e5d6a6f8.js",
+    "static/media/serwis.webp": "/olech-service1/static/media/serwis.420dc1d63639ce13f493.webp",
+    "static/media/pic1.webp": "/olech-service1/static/media/pic1.f970e5291f47460e00ef.webp",
+    "static/media/pic2.webp": "/olech-service1/static/media/pic2.0c3971e952e4d35353a3.webp",
+    "static/media/pic3.webp": "/olech-service1/static/media/pic3.173cf5659e3eb9140a0a.webp",
+    "static/media/stacja.webp": "/olech-service1/static/media/stacja.3c3317148767eb80e547.webp",
+    "static/media/header.svg": "/olech-service1/static/media/header.ad0a2afca2fae8002581f05b49c1cad7.svg",
+    "index.html": "/olech-service1/index.html",
+    "main.c59bd56b.css.map": "/olech-service1/static/css/main.c59bd56b.css.map",
+    "main.e5d6a6f8.js.map": "/olech-service1/static/js/main.e5d6a6f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c59bd56b.css",
+    "static/js/main.e5d6a6f8.js"
+  ]
+}
